@@ -15,6 +15,8 @@ int main() {
     string phrase = "Remember the Alamo";
     cout << phrase.length() << endl;
     cout << phrase[0] << endl;
+    cout << phrase.find("Alamo", 0) << endl;
+    cout << phrase.substr(9, 3) << endl;
 
     return 0;
 }
