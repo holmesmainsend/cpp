@@ -12,5 +12,8 @@ int main() {
     cout << characterName << "'s joy and his toy, boy!\n";
     cout << "At this time he was age " << characterAge << endl;
 
+    string phrase = "Remember the Alamo";
+    cout << phrase[0] << endl;
+
     return 0;
 }
