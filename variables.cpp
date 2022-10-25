@@ -13,6 +13,7 @@ int main() {
     cout << "At this time he was age " << characterAge << endl;
 
     string phrase = "Remember the Alamo";
+    cout << phrase.length() << endl;
     cout << phrase[0] << endl;
 
     return 0;
