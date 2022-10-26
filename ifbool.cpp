@@ -3,10 +3,11 @@
 using namespace std;
 
 int main() {
-    bool isAlive = true;
+    bool isAlive = false;
     if (isAlive)
         cout << "It lives!" << endl;
-    
+    else if (!isAlive)
+        cout << "Back to the drawing board..." << endl;
 
     return 0;
 }
