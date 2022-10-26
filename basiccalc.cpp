@@ -22,6 +22,8 @@ int main() {
         cout << num1 / num2 << endl;
     else if (op == '*')
         cout << num1 * num2 << endl;
+    else
+        cout << "Invalid operator" << endl;
 
     return 0;
 }
