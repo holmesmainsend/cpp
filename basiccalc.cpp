@@ -4,10 +4,10 @@
 using namespace std;
 
 int main() {
-    int num1, num2;
-    cout << "Enter first integer: " << endl;
+    double num1, num2;
+    cout << "Enter first number: " << endl;
     cin >> num1;
-    cout << "Enter second integer: " << endl;
+    cout << "Enter second number: " << endl;
     cin >> num2;
     
     cout << num1 + num2 << endl;
