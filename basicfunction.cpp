@@ -2,12 +2,13 @@
 
 using namespace std;
 
-void sayHello() {
-    cout << "Hello user" << endl;
+void sayHello(string name) {
+    cout << "Hello " << name << endl;
 }
 
 int main() {
-    sayHello();
+    string name = "Jeff";
+    sayHello(name);
 
     return 0;
 }
