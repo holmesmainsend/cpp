@@ -2,13 +2,14 @@
 
 using namespace std;
 
-void sayHello(string name) {
-    cout << "Hello " << name << endl;
+double cubing(double value) {
+    return (value * value * value);
 }
 
 int main() {
-    string name = "Jeff";
-    sayHello(name);
+    double num1 = 4.5;
+    cout << cubing(4.5) << endl;
 
     return 0;
 }
+
