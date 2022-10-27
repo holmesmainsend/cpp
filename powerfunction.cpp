@@ -2,16 +2,21 @@
 
 using namespace std;
 
-double powering(double value, double exponent);
+int powering(int initialValue, int exponent);
 
 int main() {
-    double num1 = 2;
-    double expo = 3;
+    int num1 = 2;
+    int expo = 4;
     cout << powering(num1, expo) << endl;
 
     return 0;
 }
 
-double powering(double value, double exponent) {
-    return (value * value * value);
+int powering(int initialValue, int exponent) {
+    int result = 1;
+
+    for(int i = 0; i < exponent; i++)
+        result *= initialValue;
+
+    return result;
 }
