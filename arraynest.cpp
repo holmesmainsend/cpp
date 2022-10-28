@@ -24,6 +24,6 @@ int main() {
             cout << numberGrid[i][j] << endl;
     }
 
-    //return 0;
+    // return 0;
     return 0;
 }
