@@ -8,6 +8,8 @@ int main() {
     string noun = "Book";
 
     cout << &num << endl;
+    cout << &rating << endl;
+    cout << &noun << endl;
     
     return 0;
 }
