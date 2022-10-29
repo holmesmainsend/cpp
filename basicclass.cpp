@@ -16,5 +16,7 @@ int main() {
     book1.author = "Ernest Hemingway";
     book1.pageCount = 3000;
 
+    cout << book1.author << endl;
+
     return 0;
 }
