@@ -7,16 +7,18 @@ class Book {
         string title;
         string author;
         int pageCount;
+        Book(string series) {
+            cout << "Creating new book..." << endl;
+            cout << "Book series: " << series << endl;
+        }
 };
 
 int main() {
     
-    Book book1;
+    Book book1("American Classics");
     book1.title = "The Sun Also Rises";
     book1.author = "Ernest Hemingway";
     book1.pageCount = 3000;
-
-    cout << book1.author << endl;
 
     return 0;
 }
