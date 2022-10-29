@@ -28,6 +28,11 @@ int main() {
     Artwork painting1("The Mona Lisa", "Leonardo da Vinci", 1303);
     cout << painting1.getYear() << endl;
 
+    painting1.setYear(1503);
+    cout << painting1.getYear() << endl;
+
+    painting1.setYear(1980);
+    cout << painting1.getYear() << endl;
 
     return 0;
 }
