@@ -12,9 +12,16 @@ class Automobile {
         }
 };
 
+class Mercedes : public Automobile {
+
+};
+
 int main() {
     Automobile car1;
     car1.accelerate();
+
+    Mercedes car2;
+    car2.brake();
 
     return 0;
 }
