@@ -2,12 +2,12 @@
 
 using namespace std;
 
-class artwork {
+class Artwork {
     public:
         string title;
         string artist;
         int year;
-        artwork(string aTitle, string aArtist, int aYear) {
+        Artwork(string aTitle, string aArtist, int aYear) {
             title = aTitle;
             artist = aArtist;
             year = aYear;
@@ -15,7 +15,8 @@ class artwork {
 };
 
 int main() {
-
+    Artwork painting1("The Mona Lisa", "Leonardo da Vinci", 1503);
+    cout << painting1.artist << endl;
 
     return 0;
 }
